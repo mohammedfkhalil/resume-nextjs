@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mohammed Khalil's Resume
+
+This project is a digital resume for Mohammed Khalil, built using Next.js and Tailwind CSS. It showcases Mohammed's professional experience, skills, education, and languages in a clean, responsive layout.
+
+## Features
+
+- Responsive design
+- Dark mode support
+- Sections for Work Experience, Skills, Education, and Languages
+- Built with Next.js and Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/your-username/resume-nextjs.git
+   cd resume-nextjs
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `app/`: Contains the main application pages and layout
+- `components/`: Reusable React components
+- `public/`: Static assets
+- `lib/`: Utility functions
+
+## Customization
+
+To customize this resume for your own use:
+
+1. Update the personal information in `components/Header.tsx`
+2. Modify work experience in `components/WorkExperience.tsx`
+3. Edit skills in `components/Skills.tsx`
+4. Update education details in `components/Education.tsx`
+5. Adjust languages in `components/Languages.tsx`
+
+## Deployment
+
+For deployment options, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
